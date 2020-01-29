@@ -1,0 +1,31 @@
+.mi__logo{
+    width: 80px;
+    height: auto;
+}
+
+.mi__navigation{
+    background-color: $eerieblack !important;
+}
+
+.nav__button:hover{
+    color: $spanish-pink !important;
+    text-decoration: none;
+}
+
+
+.mi__button{
+    color: $white;
+    text-decoration: none;
+
+    &:hover{
+        color: $spanish-pink !important;
+    }
+
+    &:focus{
+        background-color: $nickel !important;
+        border: 1px solid $light-gray !important;
+        color: $white !important;
+    }
+
+}
+

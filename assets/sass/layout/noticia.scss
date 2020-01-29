@@ -1,0 +1,53 @@
+.articulo__autor{
+    padding: 60px 50px;
+
+    &-retrato{
+        text-align: center;
+    }
+
+    &-info{
+        text-align: center;
+    }
+
+    &-retrato__imagen{
+        border-radius: 100%;
+        width: 130px;
+        height: auto;
+    }
+
+    &-link{
+        display: block;
+        color: $ruddy-pink !important;
+    }
+
+    &-info__titulo{
+        color: $eerieblack;
+        font-family: $Playfair;
+        font-weight: $Black-Italic;
+        font-size:  $x-l;
+    }
+
+}
+
+
+
+.paginacion{
+    @include mi__centrar;
+    background-color: $platinum;
+    height: 200px;
+    
+}
+@media (min-width: 768px){
+    .articulo__autor-retrato__imagen{
+        width: 180px;
+    }
+    .articulo__autor-info{
+        text-align: left;
+        padding-top: 50px;
+    }
+    .descripcion__autor-descripcion__texto{
+        padding-top: 70px;
+    }
+
+
+}

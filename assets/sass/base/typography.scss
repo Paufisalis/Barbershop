@@ -1,0 +1,43 @@
+/* Header Typography*/
+
+    /* Font Family*/
+    $Playfair:'Playfair Display', serif;
+    $Roboto:'Roboto', sans-serif;
+    
+    /* Font Weight*/
+    $Regular: 'font-weight: 400';
+    $Light: 'font-weight: 300';
+    $Black-Italic: 'font-weight:900', italic;
+
+    /* Font Size*/
+    $xx-l: 70px; /*4.375*/
+    $x-l: 30px; /*1.875*/
+    $l: 18px;/*1.125*/
+    $m: 16px;/*1rem*/
+    $s: 12px;/*0.75rem*/
+
+/*  */
+
+header h1{
+    @include playfair__bold;
+        font-size: $xx-l;
+        color: $white;
+        text-shadow:3px 3 3.5 rgba(0,0,0,0.5);
+        width: 55%   
+}
+
+.fecha__parrafo{
+    font-family: $Playfair;
+    font-weight: $Light;
+    font-size: $l;
+    margin-top: 30px;
+    color: $eerieblack;
+    opacity: 70%;
+}
+
+.cuerpo__parrafo{
+    font-family: $Roboto;
+    font-weight: $Light;
+    margin-top: 15px;
+    line-height: 40px;
+}

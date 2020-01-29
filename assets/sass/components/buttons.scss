@@ -1,0 +1,33 @@
+
+$button: 40px;
+
+//Botones rrss
+.btns__redes{
+    border-radius: $button;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background-color: $nickel;
+    border: 1px slid $nickel;
+    color: $white;
+
+    &:hover{
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+        color: $white;
+    }
+
+    &:focus{
+        background-color: $nickel !important;
+        border: 1px solid $light-gray !important;
+        color: $white !important;
+    }
+}
+
+//Botones paginacion
+
+.btn__pg{
+    border-radius: 50px;
+    background-color: $white;
+    color: $eerieblack;
+    border-color: $light-gray;
+}
