@@ -14,9 +14,39 @@ header {
     flex-direction: column;
     padding: 50px;
 
-    i{
+    i{ 
         margin-top: 150px;
         color: white;
+    }
+
+
+
+
+    @media (max-width: 768px){
+        header{
+            width: 100vw;
+            height: 100vh;
+          
+        }
+    
+        .texto-header {
+            width: 100%;
+            margin-top: 700px;
+           
+        }
+        h1{
+            padding-left: 20px;
+            font-size: 40px;
+         
+        }
+
+
+        i{ 
+          
+            margin-top: 90px;
+            color: white;
+        }
+        
     }
 }
 
